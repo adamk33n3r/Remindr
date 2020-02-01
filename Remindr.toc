@@ -1,0 +1,11 @@
+## Interface: 11303
+## Title: Remindr
+## SavedVariables: RemindrDB
+## Author: adamk33n3r
+## Notes: Set reminders (repeating or single) like to get up and stretch or to hydrate
+## Version: 1.0.0
+## X-Website: https://github.com/adamk33n3r/Remindr
+## X-Issues: https://github.com/adamk33n3r/Remindr/issues
+## X-Credits: Inspired by the wonderful idea by Sir_Onionknight with Posture Check https://www.curseforge.com/wow/addons/posture-check
+
+Remindr.lua
