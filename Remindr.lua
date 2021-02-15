@@ -57,7 +57,7 @@ function SlashCmdList.REMINDR(msg, editbox)
     if cmd == "add" or cmd == "addr" then
         local isRecurring = cmd == "addr"
         if args ~= "" then
-            local _, _, timerName, interval, msg = string.find(args, "(%w+)%s+(%d+)%s+(.*)")
+            local _, _, timerName, interval, msg = string.find(args, "(%w+)%s+(%d*%.?%d+)%s+(.*)")
             if timerName == "" or interval == "" or tonumber(interval) == nil or msg == "" then
                 print(COLOR_ERROR .. "Syntax: /remindr add" .. (isRecurring and "r" or "") .. " <name> <minutes> <message>")
             else
